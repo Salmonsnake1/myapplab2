@@ -23,13 +23,13 @@ const Tab1: React.FC = () => {
       <IonMenu contentId="main-content">
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Menu</IonTitle>
+            <IonTitle>Pages!</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
           <IonList>
             <IonListHeader>
-              <IonLabel>Navigate from here..</IonLabel>
+              <IonLabel>Explore here!</IonLabel>
             </IonListHeader>
             <IonMenuToggle autoHide>
               <IonItem button routerLink="/tab1">
@@ -38,15 +38,15 @@ const Tab1: React.FC = () => {
               </IonItem>
               <IonItem routerLink="/tab2">
                 <IonIcon slot="start" icon={apertureOutline}></IonIcon>
-                <IonLabel>About</IonLabel>
+                <IonLabel>Film</IonLabel>
               </IonItem>
               <IonItem routerLink="/tab3">
                 <IonIcon slot="start" icon={apertureOutline}></IonIcon>
-                <IonLabel>Contact</IonLabel>
+                <IonLabel>Information</IonLabel>
               </IonItem>
               <IonItem routerLink="/service">
                 <IonIcon slot="start" icon={apertureOutline}></IonIcon>
-                <IonLabel>Service</IonLabel>
+                <IonLabel>Services</IonLabel>
               </IonItem>
             </IonMenuToggle>
           </IonList>
@@ -62,12 +62,12 @@ const Tab1: React.FC = () => {
                 </IonButton>
               </IonMenuToggle>
             </IonButtons>
-            <IonTitle>Header</IonTitle>
+            <IonTitle>Welcome!</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
-          <h1>Main Content</h1>
-          <p>Click the icon in the top left to toggle the Menu.</p>
+          <h1>Main Film Page</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </IonContent>
       </IonPage>
     </IonApp>
